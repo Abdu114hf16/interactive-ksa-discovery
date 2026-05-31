@@ -2,9 +2,9 @@
 
 A full-stack interactive web platform for exploring Saudi Arabia's regions, landmarks, and cultural heritage. Built with PHP, MySQL, and vanilla JavaScript — featuring an admin dashboard with full CRUD operations, image galleries, real-time search and filtering, dark mode, and a fully responsive RTL (Right-to-Left) Arabic interface.
 
-> **Project Deck:** For a visual overview of the system design, features, and screenshots, see the [Project Presentation (PowerPoint)](docs/CSC457_CourseProject.pptx).
+> **Project Deck:** For a visual overview of the system design, features, and screenshots, see the [Project Presentation (PowerPoint)](Presentation.pptx).
 >
-> **Project Report:** For detailed documentation, see the [Project Report (PDF)](docs/CSC457_CourseProject_Report_v5.pdf).
+> **Project Report:** For detailed documentation, see the [Project Report (PDF)](Report.pdf).
 
 ## Screenshots
 
