@@ -1,4 +1,4 @@
-# Interactive KSA Discovery
+# Interactive KSA Discovery - https://capstone.alshammarii.me/
 
 A full-stack interactive web platform for exploring Saudi Arabia's regions, landmarks, and cultural heritage. Built with PHP, MySQL, and vanilla JavaScript — featuring an admin dashboard with full CRUD operations, image galleries, real-time search and filtering, dark mode, and a fully responsive RTL (Right-to-Left) Arabic interface.
 
