@@ -1,4 +1,9 @@
-# Interactive KSA Discovery - https://capstone.alshammarii.me/
+# Interactive KSA Discovery
+
+**Case study:** <https://alshammari.dev/projects/interactive-saudi-arabia-discovery/>
+
+> The original deployment at `capstone.alshammarii.me` is offline. Run it
+> locally with the Quick Start below.
 
 A full-stack interactive web platform for exploring Saudi Arabia's regions, landmarks, and cultural heritage. Built with PHP, MySQL, and vanilla JavaScript — featuring an admin dashboard with full CRUD operations, image galleries, real-time search and filtering, dark mode, and a fully responsive RTL (Right-to-Left) Arabic interface.
 
@@ -136,3 +141,29 @@ php -S localhost:8000
 ## License
 
 MIT
+
+## Project context
+
+University coursework, **completed individually**: design, implementation,
+testing and documentation.
+
+## Limitations
+
+- Academic coursework, built to demonstrate the data model and the workflow. It
+  has not been operated as a live service, and the original deployment is
+  offline.
+- The security work covers the boundaries the project handles, parameterised
+  queries and escaped output. It is **not a full application security review**.
+- Content accuracy is inherited from its sources and was not independently
+  verified as part of the build.
+
+## Case study
+
+A full write-up: the business question, the method, the evidence, and what the
+result does not support.
+
+<https://alshammari.dev/projects/interactive-saudi-arabia-discovery/>
+
+## License
+
+MIT. See [LICENSE](LICENSE).
