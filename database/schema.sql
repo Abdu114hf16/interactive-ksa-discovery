@@ -23,5 +23,17 @@ CREATE TABLE IF NOT EXISTS admins (
     password VARCHAR(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Default admin (change password after first login)
-INSERT INTO admins (username, password) VALUES ('admin', '$2y$10$defaultHashChangeMe');
+-- Admin bootstrap.
+--
+-- No credential ships in this file. An earlier revision seeded a working
+-- bcrypt hash, and its plaintext was published alongside it in the project
+-- report, so that account must be treated as compromised. Do not reuse it.
+--
+-- After loading this schema, generate a hash locally and insert it:
+--
+--   php -r 'echo password_hash("choose-a-strong-password", PASSWORD_BCRYPT);'
+--
+--   INSERT INTO admins (username, password)
+--   VALUES ('your-username', 'paste-the-generated-hash');
+--
+-- Nothing in this repository should ever contain the plaintext.

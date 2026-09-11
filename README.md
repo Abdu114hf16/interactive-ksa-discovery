@@ -10,6 +10,11 @@ A full-stack interactive web platform for exploring Saudi Arabia's regions, land
 > **Project Deck:** For a visual overview of the system design, features, and screenshots, see the [Project Presentation (PowerPoint)](Presentation.pptx).
 >
 > **Project Report:** For detailed documentation, see the [Project Report (PDF)](Report.pdf).
+>
+> Both documents have been redacted: an identification number and a set of
+> demo administrator credentials were removed. The affected report pages were
+> rasterised so the removed text is not recoverable from the file. The demo
+> account they referred to is retired and must not be reused.
 
 ## Screenshots
 
